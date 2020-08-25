@@ -94,7 +94,6 @@
   margin-top: 70px;
   width: 62%;
   align-items: center;
-
   margin:auto;
 }
 .by{
@@ -135,8 +134,15 @@ width: 80%;
   background-color: white;
 }
 
-.first-artcle{
+.first-artcle,
+.second-article{
   width: 50%;
   margin: auto;
   font-size: 20px;
+}
+.blue-highlight{
+  color: rgb(86, 123, 149);
+  text-decoration:underline;
+  font-size: x-large;
+  font-weight: 500;
 }
