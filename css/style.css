@@ -9,6 +9,8 @@
   border-top-style: none;
   border-bottom: solid 1px lightgrey;
   height: 36px;
+  background-color: white;
+  z-index: 2;
 
 }
 
@@ -43,28 +45,46 @@
 }
 .heading{
   position:relative;
-  
-top: 5rem;
-  
-  
-  
+  top: 4rem;
+  items-align: center;
 }
+
 .title-container{
-  text-align: center;
   background-color: yellow;
   width: 100%;
 }
+
 .title-container-sub-container{
-  width: 40%;
+  width: 55%;
   background-color: steelblue;
+  margin: auto;
 }
+
 .title{
+  color: #121212;
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-  background-color: violet;
-  font-weight: 900;
-  font-size: 30px;
+  font-size: 2rem;
+  line-height: 3rem;
   font-style: italic;
-  width: 40%;
+  width: calc(100% - 40px);
+  max-width: 600px;
   float:left;
 }
 
+.telescop-1-img-container{
+
+    width: 72%;
+    margin: auto;
+}
+
+.telescop-1-img{
+  margin-top: 50px;
+  width: 100%;
+}
+
+.telescop-1-img-container > p{
+  width: 78%;
+  color: #666;
+  margin-left: 0;
+  float: left;
+}
