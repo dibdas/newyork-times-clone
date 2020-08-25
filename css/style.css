@@ -66,7 +66,7 @@
   font-size: 2rem;
   line-height: 3rem;
   font-style: italic;
-  width: calc(100% - 40px);
+  
   max-width: 600px;
   float:left;
 }
@@ -87,4 +87,22 @@
   color: #666;
   margin-left: 0;
   float: left;
+}
+.author{
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  width: 62%;
+  align-items: center;
+  
+  margin:auto;
+}
+.by{ 
+  float: left;
+  font-size: medium;
+  margin-left:1px;
+}
+.author-row{
+  display: inline-block;
+  flex-direction: row;
 }
