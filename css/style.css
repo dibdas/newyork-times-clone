@@ -66,7 +66,7 @@
   font-size: 2rem;
   line-height: 3rem;
   font-style: italic;
-  
+
   max-width: 600px;
   float:left;
 }
@@ -94,15 +94,49 @@
   margin-top: 70px;
   width: 62%;
   align-items: center;
-  
+
   margin:auto;
 }
-.by{ 
-  float: left;
-  font-size: medium;
-  margin-left:1px;
+.by{
+width: 80%;
 }
+
+.by > p{
+  text-decoration: underline;
+}
+
+.by > p:hover{
+  text-decoration: none;
+}
+
 .author-row{
+ width: 80%;
+}
+
+.inline-block{
   display: inline-block;
-  flex-direction: row;
+}
+
+.share-items{
+  float: right;
+  font-size: 15px;
+}
+
+.share-items > i{
+  margin: 5px;
+  padding: 6px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  cursor: pointer;
+  border: solid lightgrey 1px;
+}
+
+.share-items > i:hover{
+  background-color: white;
+}
+
+.first-artcle{
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
 }
