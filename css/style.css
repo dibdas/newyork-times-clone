@@ -1,3 +1,5 @@
+
+
 navbar{
   position: fixed;
   margin-top: 0;
@@ -47,12 +49,12 @@ navbar{
 .heading{
   position:relative;
   top: 4rem;
-  
+
 }
 
 .title-container{
-  
-  
+
+
   width: 35%;
   background-color: steelblue;
   margin: auto;
@@ -140,7 +142,7 @@ width: 80%;
   margin: auto;
   font-size: 20px;
   font-family:nyt-imperial,georgia,'times new roman',times,serif;
-  
+
 }
 .blue-highlight{
   color: rgb(86, 123, 149);
@@ -167,32 +169,53 @@ width: 80%;
 .black{
   text-align: center;
 }
-.hr-1
-{
+
+.hr-1{
   width:12%;
 }
+
 .h2-heading{
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
 }
-.inflation{
 
-  width:72%;
+.infla-container{
+  width: 70%;
   margin:auto;
 }
+
+.grid-container{
+ display: grid;
+ justify-content: space-between;
+ 
+ border: solid 1px white;
+ grid-template-columns: repeat(4, 2fr);
+ grid-gap:0.4em;
+ 
+
+}
+
 .inflation-heading{
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 600;
   bottom: 0;
 }
-.inflation > p{
+
+.infla-container > p{
   top:0;
   color: #666;
   margin-left: 0;
   float: left;
 }
-.inflation-pic-1-row{
-  width:100%;
-  display:grid;
-  grid-template-columns:repeat(4, 1fr);
+.grid-image{
+  width: 200px;
+}
+
+.grid-paragraph{
+width:180px;
+font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
 }
