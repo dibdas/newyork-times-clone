@@ -176,6 +176,7 @@ width: 80%;
   font-weight: 700;
 }
 .inflation{
+
   width:72%;
   margin:auto;
 }
@@ -191,7 +192,7 @@ width: 80%;
   float: left;
 }
 .inflation-pic-1-row{
-  width:72%;
-display:grid;
-grid-template-columns: 10px 10px 10px 10px;
+  width:100%;
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
 }
