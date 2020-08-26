@@ -1,15 +1,15 @@
 navbar{
   position: fixed;
   margin-top: 0;
-  width: 98%;
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  background-color: white;
   justify-content: space-between;
   align-items: center;
   border-top-style: none;
   border-bottom: solid 1px lightgrey;
   height: 36px;
-  background-color: white;
+  left:0;
   top:0;
   z-index: 3;
 
@@ -21,6 +21,7 @@ navbar{
   display: inline-block;
   font-size: 16px;
   margin-right: 10px;
+  background-color: yellow;
 
   }
 
@@ -41,8 +42,8 @@ navbar{
   border-width: 1px;
   border-style: solid;
   border-color: rgb(50, 104, 145);
-  margin-left: 5px;
-  padding: 8px;
+  margin: 5px 13px 3px 0;
+  padding: 4px;
   font-weight:bold;
 }
 .heading{
@@ -134,26 +135,45 @@ width: 80%;
 }
 
 .first-artcle,
-.second-article{
+.second-article,
+.third-article,
+.fourth-article{
   width: 50%;
   margin: auto;
   font-size: 20px;
+  font-family:nyt-imperial,georgia,'times new roman',times,serif;
+  
 }
 .blue-highlight{
   color: rgb(86, 123, 149);
   text-decoration:underline;
   font-size: x-large;
   font-weight: 500;
+  cursor: pointer;
 }
 .Subscribe{
   width:45% ;
   margin:auto;
+  cursor: pointer;
+  height: auto;
+  top:0;
 }
 .blue{
   font-size:15px;
   color: rgb(86, 123, 149);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
+  cursor: pointer;
+  top:0;
+  text-align: center;
 }
 .black{
-  font-;
+  text-align: center;
+}
+.hr-1
+{
+  width:12%;
+}
+.h2-heading{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;;
 }
