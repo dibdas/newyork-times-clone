@@ -21,8 +21,6 @@ navbar{
   display: inline-block;
   font-size: 16px;
   margin-right: 10px;
-  background-color: yellow;
-
   }
 
   .nytimes-logo{
@@ -175,5 +173,25 @@ width: 80%;
 }
 .h2-heading{
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 700;;
+  font-weight: 700;
+}
+.inflation{
+  width:72%;
+  margin:auto;
+}
+.inflation-heading{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 600;
+  bottom: 0;
+}
+.inflation > p{
+  top:0;
+  color: #666;
+  margin-left: 0;
+  float: left;
+}
+.inflation-pic-1-row{
+  width:72%;
+display:grid;
+grid-template-columns: 10px 10px 10px 10px;
 }
