@@ -137,7 +137,10 @@ width: 80%;
 .first-artcle,
 .second-article,
 .third-article,
-.fourth-article{
+.fourth-article,
+.fifth-article,
+.sixth-article,
+.seventh-article{
   width: 50%;
   margin: auto;
   font-size: 20px;
