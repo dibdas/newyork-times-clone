@@ -1,4 +1,4 @@
-#navbar{
+navbar{
   position: fixed;
   margin-top: 0;
   width: 98%;
@@ -26,6 +26,7 @@
 
   .nytimes-logo{
     height:25px;
+    cursor: pointer;
   }
   .right-nav{
     display: flex;
@@ -47,16 +48,13 @@
 .heading{
   position:relative;
   top: 4rem;
-  items-align: center;
+  
 }
 
 .title-container{
-  background-color: yellow;
-  width: 100%;
-}
-
-.title-container-sub-container{
-  width: 55%;
+  
+  
+  width: 35%;
   background-color: steelblue;
   margin: auto;
 }
