@@ -169,7 +169,45 @@ width: 80%;
 .black{
   text-align: center;
 }
-
+aside{
+  float:right;
+  width:190px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10em;
+  margin-right:3em ;
+  justify-content: space-between;
+  
+}
+.aside-heading{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    letter-spacing: 0.01em;
+}
+.aside-para{
+  text-decoration-line:none;;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    font-weight: 600;
+    font-size: 12px;
+    width: 90%;
+    color: rgb(51, 51, 51);
+    padding-bottom: 15px;
+    cursor: pointer;
+    float: right;
+    text-align: left;
+    margin-left: 2em;
+    
+}
+.aside-para-image{
+  margin-left:0;
+  margin-right: 14px;
+}
+.aside-para img{
+  width:70px;
+  float:left;
+}
 .hr-1{
   width:12%;
 }
