@@ -218,6 +218,11 @@ aside{
 .h2-heading{
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
+  font-size: 14px;
+}
+
+.h2-heading:hover{
+  text-decoration: underline;
 }
 
 .infla-container{
@@ -312,32 +317,41 @@ float: right;
   width: 95%;
   margin-top: 12em;
   margin-left: 1.6em;
-
-  
 }
+
+.float-right{
+  float: right;
+}
+
 .grid-container-space-astronomy{
-  display: grid;
- 
+ display: grid;
+ justify-content: space-between;
  margin:1em 0 0 0 ;
  border: solid 1px white;
- grid-template-columns: repeat(3, 2fr);
-
+ grid-template-columns: repeat(3, 280px);
 }
+
+.lineheight-1px{
+  line-height: 1px;
+}
+
 .space-astronomy{
-  width: 71%;
-  float:left;
+  width: 68%;
+  float: left;
   display:grid;
 }
 
 .sa{
-  width:15em;
+  width:100%;
 }
+
 .most-popular{
 float: right;
-width:25%;
+width:22%;
 margin-right: 4em;
-
+margin-top: 0;
 }
+
 .popular-para{
   margin: 2rem 1rem 0 ;
 }
@@ -348,7 +362,7 @@ margin-right: 4em;
     font-weight: 700;
     line-height: 1.375rem;
     cursor: pointer;
-    
+
 }
 .editors-pick-grid{
   display:grid;
@@ -356,26 +370,27 @@ margin-right: 4em;
   grid-template-columns: repeat(3, 2fr);
   margin:4rem 0 0 0 ;
   border: solid 1px white;
-  
+
 
 }
 .popular-para-hr{
-color:lightgrey;
+color: rgb(226, 226, 226);
 }
-.left{
+.left-hr{
   border-color: #000000;
-  width:68%;
+  width:100%;
   float: left;
 }
-.right{
+.right-hr{
   border-color: #000000;
-  width:25%;
+  width:100%;
   float: right;
 }
 .sa-heading{
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 14px;
   line-height: 17px;
+  float: left;
   font-weight: 300;
   color: #000000;
   font-style: normal;
