@@ -341,3 +341,11 @@ width: 38%;
 .popular-para{
   margin: 4rem 0 0 0 ;
 }
+.popular-para-links{
+  color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    cursor: pointer;
+}
