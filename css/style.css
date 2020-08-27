@@ -293,4 +293,16 @@ figure img{
     border-radius:3px;
     border: 1px ;
 }
+.spac{
+  border-color: black;
+  width: 50%;
+  margin:0 10rem;
+  border-color: black;
+}
+.space-astronomy{
+  display:grid;
+  width:90%;
+  
+
+}
 
