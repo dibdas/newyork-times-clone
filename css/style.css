@@ -317,6 +317,8 @@ float: right;
   width: 95%;
   margin-top: 12em;
   margin-left: 1.6em;
+  margin-bottom: 55em;
+  
 }
 
 .float-right{
@@ -329,6 +331,8 @@ float: right;
  margin:1em 0 0 0 ;
  border: solid 1px white;
  grid-template-columns: repeat(3, 280px);
+ 
+ grid-gap:0.1em;
 }
 
 .lineheight-1px{
@@ -364,15 +368,7 @@ margin-top: 0;
     cursor: pointer;
 
 }
-.editors-pick-grid{
-  display:grid;
-  float:left;
-  grid-template-columns: repeat(3, 2fr);
-  margin:4rem 0 0 0 ;
-  border: solid 1px white;
 
-
-}
 .popular-para-hr{
 color: rgb(226, 226, 226);
 }
@@ -395,3 +391,31 @@ color: rgb(226, 226, 226);
   color: #000000;
   font-style: normal;
 }
+
+.below-grid-container{
+  width:85%;
+  display: grid;
+  margin:1em 0 0 0 ;
+  border: solid 1px white;
+  grid-template-columns: repeat(5,1fr);
+  
+  grid-gap:0.1em;
+}
+.list-div{
+  padding:0;
+  
+  
+}
+.list{
+  margin-left:0;
+  background-color: darkkhaki;
+}
+ .list >li{
+list-style: none;
+line-height: 1.5em;
+
+ }
+ .list-li{
+   text-align: left;
+   float: left;
+ }
