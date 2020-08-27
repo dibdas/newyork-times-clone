@@ -372,3 +372,11 @@ color:lightgrey;
   width:25%;
   float: right;
 }
+.sa-heading{
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+  font-style: normal;
+}
