@@ -6,7 +6,7 @@ navbar{
   width: 100%;
   display: flex;
   background-color: white;
-  justify-content: space-between;
+  
   align-items: center;
   border-top-style: none;
   border-bottom: solid 1px lightgrey;
@@ -23,10 +23,13 @@ navbar{
   font-size: 16px;
   margin-right: 10px;
   }
+  .pointer{
+    cursor: pointer;
+  }
 
   .nytimes-logo{
     height:25px;
-    cursor: pointer;
+    
   }
 
   .right-nav{
@@ -99,9 +102,8 @@ navbar{
 width: 80%;
 }
 
-.by > p{
-  text-decoration: underline;
-}
+
+
 
 .by > p:hover{
   text-decoration: none;
@@ -125,7 +127,7 @@ width: 80%;
   padding: 6px;
   background-color: lightgrey;
   border-radius: 50%;
-  cursor: pointer;
+  
   border: solid lightgrey 1px;
 }
 
@@ -149,15 +151,14 @@ width: 80%;
 }
 .blue-highlight{
   color: rgb(86, 123, 149);
-  text-decoration:underline;
   font-size: x-large;
   font-weight: 500;
-  cursor: pointer;
+  
 }
 .Subscribe{
   width:50% ;
   margin:auto;
-  cursor: pointer;
+  
   height: auto;
   top:0;
   line-height: 6px;
@@ -166,13 +167,11 @@ width: 80%;
   font-size:15px;
   color: rgb(50, 104, 145);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  cursor: pointer;
   top:0;
-  text-align: center;
   font-weight: bold;
 }
 .black{
-  text-align: center;
+  
   font-size: 14px;
   font-weight: bold;
 }
@@ -183,7 +182,7 @@ aside{
   display: block;
   margin-top: 10em;
   margin-right:5em ;
-  justify-content: space-between;
+  
 
 }
 .aside-heading{
@@ -201,7 +200,7 @@ aside{
     width: 90%;
     color: rgb(51, 51, 51);
     padding-bottom: 15px;
-    cursor: pointer;
+    
     float: right;
     text-align: left;
     margin-left: 2em;
@@ -237,7 +236,7 @@ aside{
 
 .grid-container{
  display: grid;
- justify-content: space-between;
+ 
  border: solid 1px white;
  grid-template-columns: repeat(4, 2fr);
  grid-gap:0.4em;
@@ -299,7 +298,6 @@ figure img{
 .comments{
   margin:90px 0 0 0 ;
   align-items: center;
-  text-align: center;
   background-color: chocolate;
 }
 .read{
@@ -332,7 +330,6 @@ float: right;
 
 .grid-container-space-astronomy{
  display: grid;
- justify-content: space-between;
  margin:1em 0 0 0 ;
  border: solid 1px white;
  grid-template-columns: repeat(3, 280px);
@@ -370,8 +367,6 @@ margin-top: 0;
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 1.375rem;
-    cursor: pointer;
-
 }
 
 .popular-para-hr{
@@ -419,7 +414,6 @@ footer {
   width:100%;
   display: grid;
   grid-template-columns: repeat(6, 180px);
-  justify-content: space-between;
   border-bottom: solid 1px lightgrey;
 }
 
@@ -431,8 +425,8 @@ footer {
 .list{
   margin: 0;
   padding: 0;
+  line-height: 2em;
 }
-
 
  ul > li{
    margin: 0;
@@ -456,7 +450,6 @@ footer {
 }
 .last-ul{
   width: 100%;
-  text-align: center;
   margin-top: 8px;
 }
 
@@ -472,7 +465,7 @@ footer {
 }
 
 .footer-bottom-section{
-  text-align: center;
+
   position: fixed;
   bottom: 0;
   background-color: white;
@@ -484,10 +477,32 @@ footer {
 .end-footer-para{
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   font-size:100%;
-  text-align: center;
+  
 
 }
 .expand{
   float: right;
   margin-right: 10%;
+}
+.text-pattern{
+  text-decoration:underline;
+}
+.content-pattern{
+  justify-content: space-between;
+}
+.text-alignment{
+  text-align: center;
+}
+.go-home{
+float: right;
+margin: 0 0 3em 0;
+  color: rgb(86, 123, 149);
+  font-size: 12px;
+
+}
+.subsc-fas{
+  justify-content:space-between;
+}
+.subs-list{
+line-height: 2em;
 }
