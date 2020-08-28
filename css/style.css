@@ -201,6 +201,7 @@ aside{
     float: right;
     text-align: left;
     margin-left: 2em;
+    margin-right: 1em;
 
 }
 .aside-para-image{
@@ -412,7 +413,7 @@ footer{
 
 .list{
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 
@@ -420,7 +421,7 @@ footer{
    margin: 0;
    padding: 0;
    list-style: none;
-   width: 100%;
+
 }
 
  ul > li:hover{
@@ -429,4 +430,37 @@ footer{
 
  .subscribe-li{
    border-left: solid 1px lightgrey;
+   
+   padding-left: 1em;
  }
+.last-footer{
+  display:flex;
+  padding-left:0 5em ;
+}
+.last-ul{
+  text-align: center;
+  justify-content: center;
+}
+.last-ul > li {
+    display:inline-block;
+color: #666;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+.end-footer{
+  display:flex;
+text-align: center;
+
+}
+.end-footer-para{
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-size:100%;
+  padding-left: 18em;
+  text-align: center;
+
+}
+.expand{
+  padding-left:16em;
+}
