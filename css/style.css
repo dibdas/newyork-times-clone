@@ -155,22 +155,26 @@ width: 80%;
   cursor: pointer;
 }
 .Subscribe{
-  width:45% ;
+  width:50% ;
   margin:auto;
   cursor: pointer;
   height: auto;
   top:0;
+  line-height: 6px;
 }
 .blue{
   font-size:15px;
-  color: rgb(86, 123, 149);
+  color: rgb(50, 104, 145);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   cursor: pointer;
   top:0;
   text-align: center;
+  font-weight: bold;
 }
 .black{
   text-align: center;
+  font-size: 14px;
+  font-weight: bold;
 }
 aside{
   float:right;
@@ -178,7 +182,7 @@ aside{
   text-decoration: none;
   display: block;
   margin-top: 10em;
-  margin-right:3em ;
+  margin-right:5em ;
   justify-content: space-between;
 
 }
@@ -393,9 +397,22 @@ color: rgb(226, 226, 226);
   font-style: normal;
 }
 
-footer{
+footer {
+  width: 100%;
+  margin: auto;
+}
+
+.footer-top-section{
   width: 90%;
   margin: auto;
+  border-top-style: double;
+  border-top-color: #e2e2e2;
+  padding-top: 20px;
+}
+
+.go-to-home-link {
+  color: rgb(86, 123, 149);
+  font-size: 18px;
 }
 
 .below-grid-container{
@@ -430,7 +447,7 @@ footer{
 
  .subscribe-li{
    border-left: solid 1px lightgrey;
-   
+
    padding-left: 1em;
  }
 .last-footer{
@@ -438,29 +455,39 @@ footer{
   padding-left:0 5em ;
 }
 .last-ul{
+  width: 100%;
   text-align: center;
-  justify-content: center;
+  margin-top: 8px;
 }
+
 .last-ul > li {
     display:inline-block;
-color: #666;
+    color: #666;
     font-family: nyt-franklin,helvetica,arial,sans-serif;
     font-size: 11px;
     line-height: 20px;
-    padding: 0 10px;
+    padding-bottom: 35px;
+    margin-right: 12px;
+    margin-bottom: 16px;
 }
-.end-footer{
-  display:flex;
-text-align: center;
 
+.footer-bottom-section{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  border-top: solid grey 1px;
+  margin-top: 100px;
 }
+
 .end-footer-para{
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   font-size:100%;
-  padding-left: 18em;
   text-align: center;
 
 }
 .expand{
-  padding-left:16em;
+  float: right;
+  margin-right: 10%;
 }
