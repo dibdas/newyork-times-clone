@@ -6,7 +6,7 @@ navbar{
   width: 100%;
   display: flex;
   background-color: white;
-  
+
   align-items: center;
   border-top-style: none;
   border-bottom: solid 1px lightgrey;
@@ -29,7 +29,7 @@ navbar{
 
   .nytimes-logo{
     height:25px;
-    
+
   }
 
   .right-nav{
@@ -127,7 +127,7 @@ width: 80%;
   padding: 6px;
   background-color: lightgrey;
   border-radius: 50%;
-  
+
   border: solid lightgrey 1px;
 }
 
@@ -153,12 +153,12 @@ width: 80%;
   color: rgb(86, 123, 149);
   font-size: x-large;
   font-weight: 500;
-  
+
 }
 .Subscribe{
   width:50% ;
   margin:auto;
-  
+
   height: auto;
   top:0;
   line-height: 6px;
@@ -171,7 +171,7 @@ width: 80%;
   font-weight: bold;
 }
 .black{
-  
+
   font-size: 14px;
   font-weight: bold;
 }
@@ -182,7 +182,7 @@ aside{
   display: block;
   margin-top: 10em;
   margin-right:5em ;
-  
+
 
 }
 .aside-heading{
@@ -200,7 +200,7 @@ aside{
     width: 90%;
     color: rgb(51, 51, 51);
     padding-bottom: 15px;
-    
+
     float: right;
     text-align: left;
     margin-left: 2em;
@@ -236,7 +236,7 @@ aside{
 
 .grid-container{
  display: grid;
- 
+
  border: solid 1px white;
  grid-template-columns: repeat(4, 2fr);
  grid-gap:0.4em;
@@ -437,6 +437,7 @@ footer {
 
  ul > li:hover{
    text-decoration: underline;
+   cursor: pointer;
  }
 
  .subscribe-li{
@@ -477,7 +478,7 @@ footer {
 .end-footer-para{
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   font-size:100%;
-  
+
 
 }
 .expand{
