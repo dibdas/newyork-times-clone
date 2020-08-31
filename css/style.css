@@ -265,6 +265,10 @@ figure img {
   color: #000;
   font-style: normal;
 }
+.inflation-frame{
+  width:100%;
+  
+}
 
 iframe {
   width: 600px;
