@@ -90,7 +90,7 @@
   margin-top: 70px;
   width: 62%;
   align-items: center;
-  padding-left:16em;
+  padding-left: 16em;
 }
 
 .by {
@@ -265,9 +265,9 @@ figure img {
   color: #000;
   font-style: normal;
 }
-.inflation-frame{
-  width:100%;
-  
+
+.inflation-frame {
+  width: 100%;
 }
 
 iframe {

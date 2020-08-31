@@ -1,0 +1,17 @@
+/*
+  SHOW LIBRARY
+  ===================== */
+
+.g-show-xsmall,
+.g-show-small,
+.g-show-submedium,
+.g-show-sub-medium,
+.g-show-medium,
+.g-show-large,
+.g-show-xlarge {
+  display: none;
+}
+
+.g-show {
+  display: block;
+}
