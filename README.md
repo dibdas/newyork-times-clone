@@ -2,7 +2,7 @@
 This assignment consists of making a clone of a New York Times article page.
 This is a readme file for our third project at Microverse. We cloned a NewYork times page using CSS and HTML only.
 
-[screenshot](clone.png)
+[screenshot](screenshot.PNG)
 
 ## Live Demo
 ---
