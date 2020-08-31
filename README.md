@@ -2,6 +2,8 @@
 This assignment consists of making a clone of a New York Times article page.
 This is a readme file for our third project at Microverse. We cloned a NewYork times page using CSS and HTML only.
 
+[screenshot](./images/clone.png)
+
 ## Live Demo
 ---
 [NewYork times Clone](https://silly-turing-a1e999.netlify.app)
@@ -10,15 +12,17 @@ This is a readme file for our third project at Microverse. We cloned a NewYork t
 ---
 * CSS
 * HTML
+* Icons
+* Footer
 
 ## Authors
 ---
-#### Debyendu Das
+#### Dibyendu Das
 * Github:[@DibDas](https://github.com/dibdas)
 * Twitter:[@DIBYEND78120480]
 * LinkedIn:[Dibyendu Das](https://www.linkedin.com/in/dibyendu-das-b5967a1b1/)
 
-#### Stephan Annandale
+#### Rayan Rassam
 * Github:[@Rayan84](https://github.com/Rayan84)
 * Twitter:[@Rayan65096267]https://twitter.com/Rayan65096267
 * LinkedIn:[rayan-rassam](https://www.linkedin.com/in/rayan-rassam-18a0a426/)

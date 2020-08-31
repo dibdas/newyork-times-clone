@@ -1,4 +1,4 @@
-.navbar {
+.nav-bar {
   position: fixed;
   margin-top: 0;
   width: 100%;
@@ -90,6 +90,7 @@
   margin-top: 70px;
   width: 62%;
   align-items: center;
+  padding-left:16em;
 }
 
 .by {
